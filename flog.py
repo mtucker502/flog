@@ -1,8 +1,12 @@
 #!/usr/bin/python
+
+# Much credit is due to the SRX Session Analyzer written by Tim Eberhard which helped me get started on this program
+
+
 import sys
 import re
 
-#Command line arguments:
+#Command line arguments:  (COMING SOON!!)
 # -s source			
 # -d destination		
 # -p port			
@@ -110,6 +114,3 @@ try:
 except (KeyboardInterrupt, SystemExit):
 	sys.exit()
 
-	
-	
-	## I need a print function which looks at arguments and builds a tuple of dictionary items (srcip srcip.value srcip.field.length) and conditionaly loops through the tuple to print the list)
